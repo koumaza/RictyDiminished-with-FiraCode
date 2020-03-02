@@ -36,5 +36,5 @@ $(REGULAR_DISCORD_UNLINK): RictyDiminished/RictyDiminishedDiscord-Regular.ttf Fi
 
 $(BOLD_DISCORD_UNLINK): RictyDiminished/RictyDiminishedDiscord-Bold.ttf FiraCode/distr/otf/FiraCode-Bold.otf
 	$(PYTHON) build.py "$(word 1, $^)" "$(word 2, $^)" "$@" Bold true
-
+	
 .PHONY: all
